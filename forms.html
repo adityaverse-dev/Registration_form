@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f2f6ff; margin: 0; padding: 40px;">
+
+    <div style="width: 400px; margin: auto; background-color: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+
+        <h1 style="text-align: center; color: #2457c5; margin-bottom: 25px;">
+            Registration Form
+        </h1>
+
+        <form>
+
+            <!-- Name -->
+            <label style="font-weight: bold;">Name</label>
+            <input type="text" placeholder="Enter your name"
+                style="width: 100%; padding: 10px; margin: 8px 0 15px 0; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;">
+
+            <!-- Email -->
+            <label style="font-weight: bold;">Email</label>
+            <input type="email" placeholder="Enter your email"
+                style="width: 100%; padding: 10px; margin: 8px 0 15px 0; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;">
+
+            <!-- Password -->
+            <label style="font-weight: bold;">Password</label>
+            <input type="password" placeholder="Enter your password"
+                style="width: 100%; padding: 10px; margin: 8px 0 15px 0; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;">
+
+            <!-- Gender -->
+            <label style="font-weight: bold;">Gender</label>
+            <div style="margin: 10px 0 15px 0;">
+                <label style="font-weight: normal;">
+                    <input type="radio" name="gender"> Male
+                </label>
+
+                <label style="font-weight: normal; margin-left: 15px;">
+                    <input type="radio" name="gender"> Female
+                </label>
+
+                <label style="font-weight: normal; margin-left: 15px;">
+                    <input type="radio" name="gender"> Other
+                </label>
+            </div>
+
+            <!-- Department -->
+            <label style="font-weight: bold;">Department</label>
+            <select style="width: 100%; padding: 10px; margin: 8px 0 15px 0; border: 1px solid #ccc; border-radius: 6px;">
+                <option>Select Department</option>
+                <option>Computer Science</option>
+                <option>Information Technology</option>
+                <option>Electronics</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+            </select>
+
+            <!-- Terms -->
+            <label style="font-weight: normal; display: block; margin-bottom: 20px;">
+                <input type="checkbox">
+                I agree to the Terms and Conditions
+            </label>
+
+            <!-- Submit -->
+            <button type="submit"
+                style="width: 100%; padding: 12px; background-color: #2457c5; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">
+                Register
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
